@@ -1,4 +1,4 @@
-(function () {
+window.onload = function () {
     var map = {};
     //采用递归调用的方法
     function fds(node) {
@@ -17,4 +17,4 @@
     }
     fds(document);
     console.log(map)
-})();
+}
